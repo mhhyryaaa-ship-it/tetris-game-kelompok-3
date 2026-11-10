@@ -299,9 +299,10 @@ void jalankanGameTetris(int nomorSlot, StatusGameTetris& status) {
     cout << "========================================\n";
     cout << "           PERMAINAN SELESAI            \n";
     cout << "========================================\n";
-    cout << " Pemain             : " << status.namaPemain << endl;
-    cout << " Skor Akhir         : " << status.skor << endl;
-    cout << " Total Baris Hancur : " << status.totalBarisHancur << endl;
+    cout << " Pemain              : " << status.namaPemain << endl;
+    cout << " Skor Akhir          : " << status.skor << endl;
+    cout << " Total Baris Hancur  : " << status.totalBarisHancur << endl;
+    cout << " Total waktu bermain : " << status.waktubermaindetik << " Detik" << endl
     cout << "========================================\n";
     cout << "Tekan Enter untuk kembali ke menu...";
     cin.ignore(10000, '\n');
